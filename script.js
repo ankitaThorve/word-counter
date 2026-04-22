@@ -19,3 +19,14 @@ function getMatchedWordCount(sentence, match) {
 
   return count;
 }
+
+console.log(
+  getMatchedWordCount(
+    ["I", "really", "really", "really", "like", "to", "code"],
+    "really",
+  ),
+);
+
+console.log(
+  getMatchedWordCount(["Do", "not", "fear", "the", "dandy", "lion"], "dandy"),
+);
